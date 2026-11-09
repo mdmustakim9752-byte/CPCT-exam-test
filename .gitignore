@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets & Environment variables (DO NOT COMMIT!)
+.env
+*.env
+!.env.example
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large raw files & temporary downloads
+cpct_ai_agent/data/raw_zips/*.zip
+scratch/
+tests/__pycache__/
+
+# ChromaDB vector binaries (large)
+cpct_ai_agent/data/db/chromadb/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
